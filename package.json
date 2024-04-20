@@ -1,0 +1,39 @@
+{
+  "name": "profanity.dev",
+  "version": "1.0.0",
+  "description": "A wrapper for profanity.dev's profanity API (Detects swear words)",
+
+  "main": "./build/index.js",
+  "module": "./build/index.mjs",
+  "types": "./build/index.d.ts",
+  "exports": {
+    "types": "./build/index.d.ts",
+    "import": "./build/index.mjs",
+    "require": "./build/index.js"
+  },
+  "files": [
+    "README.md",
+    "build"
+  ],
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Its0xyToan/profanity-wrapper.git"
+  },
+  "keywords": [
+    "profanity.dev",
+    "profanity",
+    "api",
+    "profanity-api",
+    "wrapper"
+  ],
+  "author": "Its0xyToan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Its0xyToan/profanity-wrapper/issues"
+  },
+  "homepage": "https://github.com/Its0xyToan/profanity-wrapper#readme"
+}
